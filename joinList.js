@@ -13,7 +13,7 @@
 // ...
 
 const joinList = function(listOfStrings) {
-let joinedString = "Today I learned about ";
+  let joinedString = "";
 
   for (strings of listOfStrings) {
     joinedString += strings + ", ";
