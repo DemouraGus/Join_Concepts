@@ -12,8 +12,18 @@
 // Write our function (we must define it too!) below
 // ...
 
+
+// STEP: Define Function
+// STEP: Loop through the list items
+// STEP: Contatenate list items
+// STEP: Add comma between item
+// STEP: Don't add comma after last item
+
+
+
 const joinList = function(listOfStrings) {
   let joinedString = "";
+  let strings = "";
 
   for (strings of listOfStrings) {
     joinedString += strings + ", ";
@@ -28,11 +38,5 @@ const joinList = function(listOfStrings) {
 // Test / Driver Code below...
 const conceptList = ["gists", "types", "operators", "iteration", "problem solving"];
 const concepts = joinList(conceptList);
-
-// STEP: Define Function
-// STEP: Loop through the list items
-// STEP: Contatenate list items
-// STEP: Add comma between item
-// STEP: Don't add comma after last item
 
 console.log('Today I learned about', concepts);
